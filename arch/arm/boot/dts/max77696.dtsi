@@ -497,7 +497,7 @@
 
 		max77696_leds {
 			compatible = "maxim,max77696-leds";
-			status = "disabled";
+			status = "okay";
 
 			#address-cells = <1>;
 			#size-cells = <0>;
@@ -507,7 +507,7 @@
 				reg = <0>;
 				linux,default-trigger = "none";
 				manual;
-				brightness = <0>; /* LED_FULL */
+				brightness = <8>; /* LED_FULL */
 				delay_on = <640>;
 				delay_off = <0>;
 			};
